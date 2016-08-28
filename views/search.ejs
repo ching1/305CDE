@@ -27,7 +27,7 @@
         }
       }).
       success(function(data, status, headers, config) {
-        $scope.weathers = data;
+        $scope.weathers = data.list;
         
       }).
       error(function(data, status, headers, config) {
